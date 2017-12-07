@@ -38,15 +38,16 @@ article header {
   border-bottom: 1px solid #999;
 }
 
+article p {
+  margin: 0 0 1.3rem;
+}
+
 article header p {
   font-style: italic;
 }
 
 article ol {
   padding-left: 1rem;
-}
-article p {
-  margin: 0 0 1.3rem;
 }
 
 article > p:nth-child(2) {
@@ -90,6 +91,7 @@ blockquote {
 }
 
 @media only screen and (min-width: 60em) {
+
   html {
     font-size: 120%;
     line-height: 1.5;
@@ -106,9 +108,24 @@ blockquote {
   article > p:last-child {
     padding-bottom: 1.5rem;
   }
-
 }
 
 @media only screen and (min-width: 90em) {
+
+  html {
+    font-size: 130%;
+  }
+
+  article p {
+    margin: 0 0 1.6rem;
+  }
+
+  article > p:nth-child(2) {
+    margin-top: 1.6rem;
+  }
+
+  article > p:last-child {
+    padding-bottom: 1.6rem;
+  }
 
 }
